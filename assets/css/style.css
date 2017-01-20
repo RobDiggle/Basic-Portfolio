@@ -1,10 +1,12 @@
+
+
 #main-box{
 	background-color: lightsteelblue;
-	width: 1190px;
-	height:380px;
-	padding:20px 80px 40px 80px;
-	border-top:3.5px lightgray solid;
+	width: 960px;
+	padding:20px 290px 40px 83px;
+	border-top:5.5px lightgray solid;
 	border-bottom: 15px solid #4aaaa5;
+	margin:97px 0px 0px 0px;
 
 }
 
@@ -12,9 +14,10 @@
 	background-color: #ffffff;
 	border:2px #dddddd;
 	padding:15px 25px 15px 25px;
-	width:450px;
-	height:310px;
-
+	width:650px;
+	height:360px;
+	margin: 0px 0px 0px 105px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
 
 }
@@ -28,11 +31,13 @@
 
 #name{
 	background-color: #4aaaa5;
-	padding:15px;
+	padding:0px 15px 0px 15px;
 	border:.5px solid #4aaaa5;
 	color: white;
 	float: left;
-	margin:3px 0px 5px 80px;
+	margin:-80px 0px 5px 185px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
 
 
 }
@@ -40,25 +45,52 @@
 #top-links{
 	float; right;
 	text-align: right;
-
+	word-spacing: 30px;
+	margin:-50px 0px 0px 900px;
+    position: absolute;
+	color:lightgray;
 
 }
+
 
 #connect{
 	float: right;
+	border:.01px solid white;
+	background-color: white;
+	color: #4aaaa5;
+	padding:10px;
+	margin:-400px -150px 0px 0px;
+	height:150px;
 
 }
 
-#teal{
+.teal{
 color:#4aaaa5;
 
 }
 
 
 footer{
-	background-color: gray;
+	background-color: #666666;
+	color:lightgray;
 	text-align: center;
 	height:50px;
-	margin:-17px 0px 0px 0px;
+	width:1333px;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 0px 0px;
 
+
+
+}
+
+.image{
+	float:left;
+	padding:0px 5px 0px 0px;
+
+
+}
+
+.right{
+/*float: left;*/
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
